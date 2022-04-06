@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: shiro-rest-token
+  datasource:
+    name: defaultDataSource
+    url: jdbc:mysql://localhost:3306/db_shiro?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+
+server:
+  port: 10000
+
+mybatis-plus:
+  type-aliases-package: com.amosdzhn.shiroresttoken.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+knife4j:
+  enable: true

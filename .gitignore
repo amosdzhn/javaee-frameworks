@@ -1,0 +1,11 @@
+
+# Project exclude paths
+/framework-shiro/shiro-1-quickstart/target/
+/framework-shiro/shiro-javaWeb/target/
+/framework-shiro/shiro-rest-token/target/
+/java-base/target/
+/out/
+
+# idea
+.idea
+*.iml
