@@ -1,0 +1,7 @@
+{
+    "id":2,
+    "username":"张飞",
+    "password":"刘备",
+    "gender":"男",
+    "birth":"1998"
+}
